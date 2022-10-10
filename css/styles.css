@@ -1,0 +1,22 @@
+body {
+  /* font-family: 'Raleway', sans-serif; */
+  font-family: "Roboto", sans-serif;
+}
+.webstudio {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+}
+h1 {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36rem;
+}
+h2 {
+  font-weight: 700;
+}
+header {
+  background-color: white;
+}
+.logo-element {
+  color: #2196f3;
+}
