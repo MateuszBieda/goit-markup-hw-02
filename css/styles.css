@@ -1,22 +1,129 @@
 body {
-  /* font-family: 'Raleway', sans-serif; */
-  font-family: "Roboto", sans-serif;
+  font-family:'Roboto', sans-serif;'Raleway', sans-serif;
+}
+/* header */
+header {
+  background-color: white;
 }
 .webstudio {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
-}
-h1 {
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36rem;
-}
-h2 {
-  font-weight: 700;
-}
-header {
-  background-color: white;
+  font-size:  26px;
+  line-height: 1.17;
+  text-decoration: none;
 }
 .logo-element {
   color: #2196f3;
+}
+ .header-links li {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.17;
+
+}
+.link-color-blue{
+    color: rgba(33, 150, 243, 1) ;
+    text-decoration: none;
+}
+.link-color-black{
+    color:rgba(33, 33, 33, 1);
+    text-decoration: none;
+}
+.email-header{
+    color:rgba(33, 150, 243, 1);
+    text-decoration: none;
+}
+.phone-number-header {
+    color:rgba(117, 117, 117, 1);
+    text-decoration: none;
+}
+.logo-second-element{
+    color: rgba(0, 0, 0, 1);
+}
+/* main */
+.first-section{
+    background-color: #2F303A;
+}
+
+h1 {
+    color:#FFFFFF;
+    text-align: center;
+    font-size: 44px;
+    line-height: 1.36;
+    font-weight: 900;
+}
+button{
+    background-color: rgba(33, 150, 243, 1);
+    width: 200px;
+    height: 50px;
+    color:rgba(255, 255, 255, 1);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    text-align: center;
+
+}
+/* sections */
+h2 {
+    color:rgba(33, 33, 33, 1);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+.second-section{
+    background-color:#FFFFFF ;
+}
+.second-section h3 {
+    color: rgba(33, 33, 33, 1);
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.17;
+}
+.second-section-paragraph {
+    color:rgba(117, 117, 117, 1);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+}
+.third-section{
+    background-color: #F5F4FA;
+}
+.third-section h3 {
+    color:rgba(33, 33, 33, 1);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.17;
+}
+.position-description {
+color: rgba(117, 117, 117, 1);
+font-weight: 400;
+font-size:16px;
+line-height: 1.17;
+}
+
+footer{
+    background-color:#2F303A ;
+}
+.logo-footer{
+    color:#FFFFFF;
+}
+address{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+}
+address > p {
+    color:#FFFFFF;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+}
+.contacts {
+    color:rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    
+}
+ul{
+    list-style-type: none;
 }
