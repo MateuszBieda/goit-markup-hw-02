@@ -1,5 +1,5 @@
 body {
-  font-family:'Roboto', sans-serif;'Raleway', sans-serif;
+  font-family:'Roboto', sans-serif,'Raleway',sans-serif
 }
 /* header */
 header {
@@ -11,6 +11,7 @@ header {
   font-size:  26px;
   line-height: 1.17;
   text-decoration: none;
+  cursor: auto;
 }
 .logo-element {
   color: #2196f3;
@@ -19,23 +20,20 @@ header {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.17;
-
 }
-.link-color-blue{
-    color: rgba(33, 150, 243, 1) ;
-    text-decoration: none;
-}
-.link-color-black{
+.link {
     color:rgba(33, 33, 33, 1);
-    text-decoration: none;
+    text-decoration:none;
 }
-.email-header{
+.link:active,.link:hover,.link:focus {
     color:rgba(33, 150, 243, 1);
-    text-decoration: none;
 }
-.phone-number-header {
+.contacts-link {
     color:rgba(117, 117, 117, 1);
-    text-decoration: none;
+    text-decoration: none;    
+}
+.contacts-link:active, .contacts-link:hover, .contacts-link:focus{
+    color:rgba(33, 150, 243, 1);
 }
 .logo-second-element{
     color: rgba(0, 0, 0, 1);
@@ -60,13 +58,16 @@ button{
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
+    letter-spacing: 0.06em;
     text-align: center;
+    cursor: pointer;}
 
+.button:active, .button:hover, .button:focus {
+    background-color:rgb(16, 234, 250);  
 }
 /* sections */
 h2 {
-    color:rgba(33, 33, 33, 1);
-  font-weight: 700;
+    color:rgba(33, 33, 33, 1); 
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
@@ -76,13 +77,11 @@ h2 {
 }
 .second-section h3 {
     color: rgba(33, 33, 33, 1);
-    font-weight: 700;
     font-size: 24px;
     line-height: 1.17;
 }
 .second-section-paragraph {
     color:rgba(117, 117, 117, 1);
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
 }
@@ -97,11 +96,9 @@ h2 {
 }
 .position-description {
 color: rgba(117, 117, 117, 1);
-font-weight: 400;
 font-size:16px;
 line-height: 1.17;
 }
-
 footer{
     background-color:#2F303A ;
 }
@@ -109,7 +106,6 @@ footer{
     color:#FFFFFF;
 }
 address{
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
 }
@@ -121,9 +117,39 @@ address > p {
 }
 .contacts {
     color:rgba(255, 255, 255, 0.6);
-    text-decoration: none;
-    
+    text-decoration: none; 
 }
 ul{
     list-style-type: none;
+}
+a{
+    cursor: default;
+}
+.footer-portfolio {
+    text-decoration-line: underline;
+}
+.button-portfolio{
+    color:rgba(33, 33, 33, 1);
+    font-weight: 500;
+    font-size:16px;
+    line-height: 1.625;
+    letter-spacing: 0.03em;
+    text-align: center;
+    background-color:rgba(245, 244, 250, 1);
+    width: 93px;
+    height: 38px;
+}
+.button-portfolio:active, .button-portfolio:focus, .button-portfolio:hover {
+    background-color: rgba(33, 150, 243, 1);
+    color:rgba(255, 255, 255, 1);
+}
+.main-portfolio h3 {
+    color: rgba(33, 33, 33, 1);
+    font-size:18px;
+    line-height: 2.0;
+}
+.main-portfolio p{
+    color:rgba(117, 117, 117, 1);
+    font-size: 16px;
+    line-height: 1.875;
 }
