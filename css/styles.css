@@ -1,9 +1,15 @@
+:root{
+  --background-color-haeder:rgba(255, 255, 255, 1);
+  --second-brand-color:rgba(47, 48, 58, 1);
+  --list-font-color:rgba(117, 117, 117, 1);
+}
 body {
   font-family: "Roboto", sans-serif, "Raleway", sans-serif;
+  color:rgba(33, 33, 33, 1);
 }
 /* header */
 header {
-  background-color: white;
+  background-color:var(--background-color-haeder);
 }
 .webstudio {
   font-family: "Raleway", sans-serif;
@@ -31,7 +37,7 @@ header {
   color: rgba(33, 150, 243, 1);
 }
 .contacts-link {
-  color: rgba(117, 117, 117, 1);
+  color: var(--list-font-color);
   text-decoration: none;
 }
 .contacts-link:active,
@@ -55,6 +61,7 @@ h1 {
   font-weight: 900;
 }
 button {
+  font-family: inherit;
   background-color: rgba(33, 150, 243, 1);
   width: 200px;
   height: 50px;
@@ -74,7 +81,6 @@ button {
 }
 /* sections */
 h2 {
-  color: rgba(33, 33, 33, 1);
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
@@ -83,12 +89,11 @@ h2 {
   background-color: #ffffff;
 }
 .second-section h3 {
-  color: rgba(33, 33, 33, 1);
-  font-size: 24px;
+  font-size: 14px;
   line-height: 1.17;
 }
 .second-section-paragraph {
-  color: rgba(117, 117, 117, 1);
+  color: var(--list-font-color);
   font-size: 14px;
   line-height: 1.71;
 }
@@ -96,18 +101,17 @@ h2 {
   background-color: #f5f4fa;
 }
 .third-section h3 {
-  color: rgba(33, 33, 33, 1);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.17;
 }
 .position-description {
-  color: rgba(117, 117, 117, 1);
+  color: var(--list-font-color);
   font-size: 16px;
   line-height: 1.17;
 }
 footer {
-  background-color: #2f303a;
+  background-color:var(--second-brand-color);
 }
 .logo-footer {
   color: #ffffff;
@@ -115,6 +119,7 @@ footer {
 address {
   font-size: 14px;
   line-height: 1.71;
+  font-style: normal;
 }
 address > p {
   color: #ffffff;
@@ -130,11 +135,11 @@ ul {
   list-style-type: none;
 }
 a {
-  cursor: default;
+  /* cursor: pointer; */
 }
 .footer-portfolio {
   text-decoration-line: underline;
-  color: rgba(117, 117, 117, 1);
+  color: var(--list-font-color);
 }
 .button-portfolio {
   color: rgba(33, 33, 33, 1);
@@ -154,15 +159,17 @@ a {
   color: rgba(255, 255, 255, 1);
 }
 .main-portfolio h3 {
-  color: rgba(33, 33, 33, 1);
   font-size: 18px;
   line-height: 2;
 }
 .main-portfolio p {
-  color: rgba(117, 117, 117, 1);
+  color: var(--list-font-color);
   font-size: 16px;
   line-height: 1.875;
 }
 .main-portfolio section {
   background-color: #e5e5e5;
+}
+a:not(.webstudio){
+  cursor:pointer;
 }
